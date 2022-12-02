@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  FizzBuzz
+
+  Created by Salwa GAIDA on 27/11/2022.
+  
+*/
+
+"first_multiplier" = "Premier multiplicateur";
+"second_multiplier" = "Deuxième multiplicateur";
+"limit" = "Limite";
+"first_string" = "Première chaine";
+"second_string" = "Deuxième chaine";

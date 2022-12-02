@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		411CFC12CB831DB668946854 /* libPods-FizzBuzzTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A3C12C363DBF0D7034EEF8 /* libPods-FizzBuzzTests.a */; };
+		440E342465D621CEBE09641D /* libPods-FizzBuzz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20F895469143CA0BFD38F6 /* libPods-FizzBuzz.a */; };
+		97AF972B293761FB00E17734 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AF9729293761FB00E17734 /* ResultViewController.swift */; };
+		97AF972E2937620C00E17734 /* ResultInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AF972D2937620C00E17734 /* ResultInteractor.swift */; };
+		97AF97302937621A00E17734 /* ResultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AF972F2937621A00E17734 /* ResultPresenter.swift */; };
+		97AF97322937630E00E17734 /* Result.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AF97312937630E00E17734 /* Result.storyboard */; };
 		97C564112933DD3F00B3137E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C564102933DD3F00B3137E /* AppDelegate.swift */; };
 		97C564132933DD3F00B3137E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C564122933DD3F00B3137E /* SceneDelegate.swift */; };
-		97C564152933DD3F00B3137E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C564142933DD3F00B3137E /* ViewController.swift */; };
+		97C564152933DD3F00B3137E /* ParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C564142933DD3F00B3137E /* ParametersViewController.swift */; };
 		97C564182933DD3F00B3137E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C564162933DD3F00B3137E /* Main.storyboard */; };
 		97C5641A2933DD4100B3137E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C564192933DD4100B3137E /* Assets.xcassets */; };
 		97C5641D2933DD4100B3137E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C5641B2933DD4100B3137E /* LaunchScreen.storyboard */; };
 		97C564282933DD4100B3137E /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C564272933DD4100B3137E /* FizzBuzzTests.swift */; };
 		97C564322933DD4100B3137E /* FizzBuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C564312933DD4100B3137E /* FizzBuzzUITests.swift */; };
 		97C564342933DD4100B3137E /* FizzBuzzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C564332933DD4100B3137E /* FizzBuzzUITestsLaunchTests.swift */; };
+		97C564412933DEC400B3137E /* ParametersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C564402933DEC400B3137E /* ParametersPresenter.swift */; };
+		97C564432933DED400B3137E /* ParametersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C564422933DED400B3137E /* ParametersInteractor.swift */; };
+		97C564452933DEE500B3137E /* ParametersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C564442933DEE500B3137E /* ParametersRouter.swift */; };
+		97C5644C2933E9BB00B3137E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97C5644E2933E9BB00B3137E /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17578241E994A499136AF35D /* Pods-FizzBuzz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FizzBuzz.debug.xcconfig"; path = "Target Support Files/Pods-FizzBuzz/Pods-FizzBuzz.debug.xcconfig"; sourceTree = "<group>"; };
+		2B28EF5318CBA4B8B9096CD6 /* Pods-FizzBuzz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FizzBuzz.release.xcconfig"; path = "Target Support Files/Pods-FizzBuzz/Pods-FizzBuzz.release.xcconfig"; sourceTree = "<group>"; };
+		7B25DD785DA05039BC57060D /* Pods-FizzBuzzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FizzBuzzTests.debug.xcconfig"; path = "Target Support Files/Pods-FizzBuzzTests/Pods-FizzBuzzTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97AF9729293761FB00E17734 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		97AF972D2937620C00E17734 /* ResultInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultInteractor.swift; sourceTree = "<group>"; };
+		97AF972F2937621A00E17734 /* ResultPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPresenter.swift; sourceTree = "<group>"; };
+		97AF97312937630E00E17734 /* Result.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Result.storyboard; sourceTree = "<group>"; };
 		97C5640D2933DD3F00B3137E /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C564102933DD3F00B3137E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97C564122933DD3F00B3137E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97C564142933DD3F00B3137E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97C564142933DD3F00B3137E /* ParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersViewController.swift; sourceTree = "<group>"; };
 		97C564172933DD3F00B3137E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97C564192933DD4100B3137E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C5641C2933DD4100B3137E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,15 @@
 		97C5642D2933DD4100B3137E /* FizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C564312933DD4100B3137E /* FizzBuzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITests.swift; sourceTree = "<group>"; };
 		97C564332933DD4100B3137E /* FizzBuzzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		97C564402933DEC400B3137E /* ParametersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersPresenter.swift; sourceTree = "<group>"; };
+		97C564422933DED400B3137E /* ParametersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersInteractor.swift; sourceTree = "<group>"; };
+		97C564442933DEE500B3137E /* ParametersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersRouter.swift; sourceTree = "<group>"; };
+		97C564462933E84C00B3137E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		97C564472933E84C00B3137E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		97C5644D2933E9BB00B3137E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B4EF39461551A4DDAB54189C /* Pods-FizzBuzzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FizzBuzzTests.release.xcconfig"; path = "Target Support Files/Pods-FizzBuzzTests/Pods-FizzBuzzTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6A3C12C363DBF0D7034EEF8 /* libPods-FizzBuzzTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FizzBuzzTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA20F895469143CA0BFD38F6 /* libPods-FizzBuzz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FizzBuzz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440E342465D621CEBE09641D /* libPods-FizzBuzz.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411CFC12CB831DB668946854 /* libPods-FizzBuzzTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +104,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0DC650E92AD9F5E93CAF24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA20F895469143CA0BFD38F6 /* libPods-FizzBuzz.a */,
+				C6A3C12C363DBF0D7034EEF8 /* libPods-FizzBuzzTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36654C5305A5B2E23561478C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17578241E994A499136AF35D /* Pods-FizzBuzz.debug.xcconfig */,
+				2B28EF5318CBA4B8B9096CD6 /* Pods-FizzBuzz.release.xcconfig */,
+				7B25DD785DA05039BC57060D /* Pods-FizzBuzzTests.debug.xcconfig */,
+				B4EF39461551A4DDAB54189C /* Pods-FizzBuzzTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97AF9727293761AC00E17734 /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				97C564142933DD3F00B3137E /* ParametersViewController.swift */,
+				97C564162933DD3F00B3137E /* Main.storyboard */,
+				97C564402933DEC400B3137E /* ParametersPresenter.swift */,
+				97C564422933DED400B3137E /* ParametersInteractor.swift */,
+				97C564442933DEE500B3137E /* ParametersRouter.swift */,
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		97AF9728293761CD00E17734 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				97AF9729293761FB00E17734 /* ResultViewController.swift */,
+				97AF972D2937620C00E17734 /* ResultInteractor.swift */,
+				97AF972F2937621A00E17734 /* ResultPresenter.swift */,
+				97AF97312937630E00E17734 /* Result.storyboard */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
 		97C564042933DD3F00B3137E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +155,8 @@
 				97C564262933DD4100B3137E /* FizzBuzzTests */,
 				97C564302933DD4100B3137E /* FizzBuzzUITests */,
 				97C5640E2933DD3F00B3137E /* Products */,
+				36654C5305A5B2E23561478C /* Pods */,
+				1C0DC650E92AD9F5E93CAF24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +173,14 @@
 		97C5640F2933DD3F00B3137E /* FizzBuzz */ = {
 			isa = PBXGroup;
 			children = (
+				97AF9728293761CD00E17734 /* Result */,
+				97AF9727293761AC00E17734 /* Parameters */,
 				97C564102933DD3F00B3137E /* AppDelegate.swift */,
 				97C564122933DD3F00B3137E /* SceneDelegate.swift */,
-				97C564142933DD3F00B3137E /* ViewController.swift */,
-				97C564162933DD3F00B3137E /* Main.storyboard */,
 				97C564192933DD4100B3137E /* Assets.xcassets */,
 				97C5641B2933DD4100B3137E /* LaunchScreen.storyboard */,
 				97C5641E2933DD4100B3137E /* Info.plist */,
+				97C5644E2933E9BB00B3137E /* Localizable.strings */,
 			);
 			path = FizzBuzz;
 			sourceTree = "<group>";
@@ -134,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C564372933DD4100B3137E /* Build configuration list for PBXNativeTarget "FizzBuzz" */;
 			buildPhases = (
+				FECB9C1DAC543EFD986A5C09 /* [CP] Check Pods Manifest.lock */,
 				97C564092933DD3F00B3137E /* Sources */,
 				97C5640A2933DD3F00B3137E /* Frameworks */,
 				97C5640B2933DD3F00B3137E /* Resources */,
@@ -151,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C5643A2933DD4100B3137E /* Build configuration list for PBXNativeTarget "FizzBuzzTests" */;
 			buildPhases = (
+				E4D34D2AA7832F7FB1E8461A /* [CP] Check Pods Manifest.lock */,
 				97C5641F2933DD4100B3137E /* Sources */,
 				97C564202933DD4100B3137E /* Frameworks */,
 				97C564212933DD4100B3137E /* Resources */,
@@ -213,6 +290,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 97C564042933DD3F00B3137E;
 			productRefGroup = 97C5640E2933DD3F00B3137E /* Products */;
@@ -231,7 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97AF97322937630E00E17734 /* Result.storyboard in Resources */,
 				97C5641D2933DD4100B3137E /* LaunchScreen.storyboard in Resources */,
+				97C5644C2933E9BB00B3137E /* Localizable.strings in Resources */,
 				97C5641A2933DD4100B3137E /* Assets.xcassets in Resources */,
 				97C564182933DD3F00B3137E /* Main.storyboard in Resources */,
 			);
@@ -253,14 +333,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E4D34D2AA7832F7FB1E8461A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FizzBuzzTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FECB9C1DAC543EFD986A5C09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FizzBuzz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		97C564092933DD3F00B3137E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97C564152933DD3F00B3137E /* ViewController.swift in Sources */,
+				97C564452933DEE500B3137E /* ParametersRouter.swift in Sources */,
+				97C564412933DEC400B3137E /* ParametersPresenter.swift in Sources */,
+				97AF972B293761FB00E17734 /* ResultViewController.swift in Sources */,
+				97AF972E2937620C00E17734 /* ResultInteractor.swift in Sources */,
+				97C564152933DD3F00B3137E /* ParametersViewController.swift in Sources */,
+				97C564432933DED400B3137E /* ParametersInteractor.swift in Sources */,
 				97C564112933DD3F00B3137E /* AppDelegate.swift in Sources */,
 				97C564132933DD3F00B3137E /* SceneDelegate.swift in Sources */,
+				97AF97302937621A00E17734 /* ResultPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +434,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				97C564172933DD3F00B3137E /* Base */,
+				97C564462933E84C00B3137E /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,8 +443,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				97C5641C2933DD4100B3137E /* Base */,
+				97C564472933E84C00B3137E /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		97C5644E2933E9BB00B3137E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97C5644D2933E9BB00B3137E /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -380,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -432,6 +577,7 @@
 		};
 		97C564382933DD4100B3137E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17578241E994A499136AF35D /* Pods-FizzBuzz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +605,7 @@
 		};
 		97C564392933DD4100B3137E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B28EF5318CBA4B8B9096CD6 /* Pods-FizzBuzz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +633,7 @@
 		};
 		97C5643B2933DD4100B3137E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B25DD785DA05039BC57060D /* Pods-FizzBuzzTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +653,7 @@
 		};
 		97C5643C2933DD4100B3137E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4EF39461551A4DDAB54189C /* Pods-FizzBuzzTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
